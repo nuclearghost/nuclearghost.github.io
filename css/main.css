@@ -1,5 +1,16 @@
 
+/*
+
+	blue:#0D68FF;
+	light-blue:#0C99E8;
+	aqua:#00E6FF;
+	teal:#0Ce8C0;
+	green:0DFF8F;
+
+*/
+
 
 body {
 	background-image: url(../img/use_your_illusion.png);
+	font-family: 'Wire One', sans-serif;
 }
