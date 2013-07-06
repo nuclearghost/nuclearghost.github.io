@@ -8,4 +8,8 @@ $(function(){
 			.add($("#contact"));
 
 	parallax.index.show();
+
+	$("a").on('click', function(){
+		parallax.contact.left();
+	});
 });
