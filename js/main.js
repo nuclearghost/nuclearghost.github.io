@@ -35,6 +35,7 @@ $(function(){
 
 	//Light dark toggle
 	var dark = true;
+	var toggle = $("#toggle");
 	if (Modernizr.localstorage){
 		var lastDark = localStorage["dark"];
 		if (lastDark != undefined) { //lastDark can be false, so really only want to check for undefined
@@ -42,20 +43,20 @@ $(function(){
 		}
 		if (!dark){
 			$("body").css({"background-image": "url(../img/squairy_light.png)"});
-			this.addClass('btn-inverse');
+			toggle.addClass('btn-inverse').text("Toggle Dark");
 		}
 	}  
 
 
-	$("#toggle").on('click', function(){
+	toggle.on('click', function(){
 		if (dark){
 			dark = false;
 			$("body").css({"background-image": "url(../img/squairy_light.png)"});
-			$(this).addClass('btn-inverse');
+			$(this).addClass('btn-inverse').text("Toggle Dark");
 		} else {
 			dark = true;
 			$("body").css({"background-image": "url(../img/use_your_illusion.png)"});
-			$(this).removeClass('btn-inverse');
+			$(this).removeClass('btn-inverse').text("Toggle Light");
 		}
 
 		if (Modernizr.localstorage){
