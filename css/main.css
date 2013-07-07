@@ -28,14 +28,19 @@ footer {
 	clear:both;
 } 
 
+footer p {
+	text-align: center;
+}
+
 body {
 	background-image: url(../img/tweed.png);
 	font-family: 'Advent Pro', sans-serif;
+	font-size: 15pt;
 }
 
 h1 {
 	font-weight: bolder;
-	color:#0C99E8;
+	color:#00E6FF;
 }
 
 nav{
@@ -46,4 +51,6 @@ nav{
 .page {
 	margin-top:90px;
 	margin-left:12.5%;
+	width:75%;
+	color:#0C99E8;
 }
