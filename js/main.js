@@ -41,7 +41,7 @@ $(function(){
 			dark = lastDark;
 		}
 		if (!dark){
-			$("body").css({background-image: "url(../img/squairy_light.png)"});
+			$("body").css({"background-image": "url(../img/squairy_light.png)"});
 			this.addClass('btn-inverse');
 		}
 	}  
@@ -50,11 +50,11 @@ $(function(){
 	$("#toggle").on('click', function(){
 		if (dark){
 			dark = false;
-			$("body").css({background-image: "url(../img/squairy_light.png)"});
+			$("body").css({"background-image": "url(../img/squairy_light.png)"});
 			this.addClass('btn-inverse');
 		} else {
 			dark = true;
-			$("body").css({background-image: "url(../img/use_your_illusion.png)"});
+			$("body").css({"background-image": "url(../img/use_your_illusion.png)"});
 			this.removeClass('btn-inverse');
 		}
 
