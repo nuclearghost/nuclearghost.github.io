@@ -55,7 +55,7 @@ $(function(){
 			$(this).addClass('btn-inverse').text("Toggle Dark");
 		} else {
 			dark = true;
-			$("body").css({"background-image": "url(../img/use_your_illusion.png)"});
+			$("body").css({"background-image": "url(../img/tweed.png)"});
 			$(this).removeClass('btn-inverse').text("Toggle Light");
 		}
 
