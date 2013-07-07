@@ -37,7 +37,7 @@ $(function(){
 	var dark = true;
 	if (Modernizr.localstorage){
 		var lastDark = localStorage["dark"];
-		if (lastDark){
+		if (lastDark != undefined) { //lastDark can be false, so really only want to check for undefined
 			dark = lastDark;
 		}
 		if (!dark){
@@ -51,11 +51,11 @@ $(function(){
 		if (dark){
 			dark = false;
 			$("body").css({"background-image": "url(../img/squairy_light.png)"});
-			this.addClass('btn-inverse');
+			$(this).addClass('btn-inverse');
 		} else {
 			dark = true;
 			$("body").css({"background-image": "url(../img/use_your_illusion.png)"});
-			this.removeClass('btn-inverse');
+			$(this).removeClass('btn-inverse');
 		}
 
 		if (Modernizr.localstorage){
