@@ -14,16 +14,14 @@ html, body {height: 100%;}
 
 #wrap {
 	min-height: 100%;
-	padding-top: 60px;
-    padding-bottom: 40px;
 }
 
 #main {overflow:auto;
-	padding-bottom: 100px;}  /* must be same height as the footer */
+	padding-bottom: 50px;}  /* must be same height as the footer */
 
 footer {position: relative;
-	margin-top: -100px; /* negative value of footer height */
-	height: 100px;
+	margin-top: -50px; /* negative value of footer height */
+	height: 50px;
 	clear:both;} 
 
 body {
@@ -40,6 +38,7 @@ h1 {
 
 nav{
 	margin-left: 10%;
+	padding-top: 60px;
 }
 
 .page {
