@@ -9,7 +9,19 @@ $(function(){
 
 	parallax.index.show();
 
-	$("a").on('click', function(){
+	$("a[href=#index]").on('click', function(){
+		parallax.index.top();
+	});
+
+	$("a[href=#resume]").on('click', function(){
+		parallax.resume.right();
+	});
+
+	$("a[href=#projects]").on('click', function(){
+		parallax.projects.bottom();
+	});
+
+	$("a[href=#contact]").on('click', function(){
 		parallax.contact.left();
 	});
 });
