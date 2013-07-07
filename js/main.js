@@ -39,7 +39,7 @@ $(function(){
 	if (Modernizr.localstorage){
 		var lastDark = localStorage["dark"];
 		if (lastDark != undefined) { //lastDark can be false, so really only want to check for undefined
-			dark = lastDark;
+			dark = (lastDark === 'true');
 		}
 		if (!dark){
 			$("body").css({"background-image": "url(../img/squairy_light.png)"});
