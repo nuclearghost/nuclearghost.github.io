@@ -1,5 +1,6 @@
 
 $(function(){
+	//Parallax
 	parallax.background = $("body");
 
 	parallax.add($("#index"))
@@ -29,5 +30,36 @@ $(function(){
 	$("a[href=#contact]").on('click', function(){
 		parallax.contact.left();
 		return false;
+	});
+
+
+	//Light dark toggle
+	var dark = true;
+	if (Modernizr.localstorage){
+		var lastDark = localStorage["dark"];
+		if (lastDark){
+			dark = lastDark;
+		}
+		if (!dark){
+			$("body").css({background-image: "url(../img/squairy_light.png)"});
+			this.addClass('btn-inverse');
+		}
+	}  
+
+
+	$("#toggle").on('click', function(){
+		if (dark){
+			dark = false;
+			$("body").css({background-image: "url(../img/squairy_light.png)"});
+			this.addClass('btn-inverse');
+		} else {
+			dark = true;
+			$("body").css({background-image: "url(../img/use_your_illusion.png)"});
+			this.removeClass('btn-inverse');
+		}
+
+		if (Modernizr.localstorage){
+			localStorage["dark"] = dark;
+		}
 	});
 });
