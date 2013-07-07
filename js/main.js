@@ -1,5 +1,9 @@
 
 $(function(){
+
+	var d = new Date();
+	$("#copyYear").text(d.getFullYear());
+
 	//Parallax
 	parallax.background = $("body");
 
