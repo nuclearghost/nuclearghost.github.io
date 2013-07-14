@@ -54,3 +54,11 @@ nav{
 	width:75%;
 	color:#0C99E8;
 }
+
+#contactlist {
+	list-style: none;
+}
+
+#contactlist img {
+	height:50px;
+}
