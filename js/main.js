@@ -15,23 +15,26 @@ $(function(){
 	parallax.index.show();
 
 	$("a[href=#index]").on('click', function(){
+		$(this).addClass('active');
 		parallax.index.top();
 		return false;
 	});
 
 	$("a[href=#resume]").on('click', function(){
+		$(this).addClass('active');
 		parallax.resume.right();
 		return false;
 
 	});
 
 	$("a[href=#projects]").on('click', function(){
+		$(this).addClass('active');
 		parallax.projects.bottom();
 		return false;
-
 	});
 
 	$("a[href=#contact]").on('click', function(){
+		$(this).addClass('active');
 		parallax.contact.left();
 		return false;
 	});

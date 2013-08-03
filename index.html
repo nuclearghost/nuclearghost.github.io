@@ -19,8 +19,8 @@
 <body>
     <div id="wrap">
 
-        <nav>
-            <a href="#index">Home</a>
+        <nav class="nav nav-pills">
+            <a href="#index" class="active">Home</a>
             <a href="#resume">Resume</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
@@ -31,48 +31,68 @@
 
             <div id="index" class="page">
                 <h1>Welcome</h1>
-                <p>
-                    Hi, my name is Mark Meyer.  I'm a web developer and master's student.  I'm very passionate about technology and am always looking for the next big thing!
-                </p>
+                <div class="row">
+                    <p>
+                        Hi, my name is Mark Meyer.  I'm a web developer and master's student.  I'm very passionate about technology and am always looking for the next big thing!
+                    </p>
+                </div>
             </div>
 
             <div id="contact" class="page">
                 <h1>Contact</h1>
-                <img src="img/art.jpg" class="img-rounded pull-right">
-                <ul id="contactlist">
-                    <li>For fastest communication, please email me!</li>
-                    <li>
-                        <img src="img/gmail.png">
-                        <a href="mailto:mark.meyer37@gmail.com">mark.meyer37@gmail.com</a>
-                    </li>
-                    <li>
-                        <img src="img/github.png">
-                        <a href="https://github.com/nuclearghost">Github</a>
-                    </li>
-                    <li>
-                        <img src="img/twitterblue.png">
-                        <a href="https://twitter.com/nuclearghost">Twitter</a>
-                    </li>
-                    <li>
-                        <img src="img/linkedin.png">
-                        <a href="http://www.linkedin.com/pub/mark-meyer/38/a51/110">LinkedIn</a>
-                    </li>
-                    
-                </ul>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <ul id="contactlist">
+                            <li>For fastest communication, please email me!</li>
+                            <li>
+                                <img src="img/gmail.png">
+                                <a href="mailto:mark.meyer37@gmail.com">mark.meyer37@gmail.com</a>
+                            </li>
+                            <li>
+                                <img src="img/github.png">
+                                <a href="https://github.com/nuclearghost">Github</a>
+                            </li>
+                            <li>
+                                <img src="img/twitterblue.png">
+                                <a href="https://twitter.com/nuclearghost">Twitter</a>
+                            </li>
+                            <li>
+                                <img src="img/linkedin.png">
+                                <a href="http://www.linkedin.com/pub/mark-meyer/38/a51/110">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/art.jpg" class="img-rounded pull-right">
+                    </div>
+                </div>
             </div>
 
             <div id="resume" class="page">
                 <h1>Resume</h1>
-                <div class="row-fluid">
-                    <div class="span4"><ul>
-                        <li>HTML5</li>
-                        <li>Javascript</li>
-                        <li>jQuery</li>
-                        <li>Angular.js</li>
-                        <li>C/C++</li>
-                    </ul></div>
-                    <div class="span4"></div>
-                    <div class="span4"></div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h3>Web Technologies</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>Javascript</li>
+                            <li>jQuery</li>
+                            <li>Angular.js</li>
+                            <li>Ruby on Rails</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li>C/C++</li>
+                            <li>Ruby</li>
+                            <li>Java</li>
+                            <li>C#</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        
+                    </div>
                 </div>
             </div>
 
