@@ -15,26 +15,26 @@ $(function(){
 	parallax.index.show();
 
 	$("a[href=#index]").on('click', function(){
-		$(this).addClass('active');
+		$(this).parent().addClass('active');
 		parallax.index.top();
 		return false;
 	});
 
 	$("a[href=#resume]").on('click', function(){
-		$(this).addClass('active');
+		$(this).parent().addClass('active');
 		parallax.resume.right();
 		return false;
 
 	});
 
 	$("a[href=#projects]").on('click', function(){
-		$(this).addClass('active');
+		$(this).parent().addClass('active');
 		parallax.projects.bottom();
 		return false;
 	});
 
 	$("a[href=#contact]").on('click', function(){
-		$(this).addClass('active');
+		$(this).parent().addClass('active');
 		parallax.contact.left();
 		return false;
 	});
@@ -59,11 +59,11 @@ $(function(){
 		if (dark){
 			dark = false;
 			$("body").css({"background-image": "url(../img/squairy_light.png)"});
-			$(this).addClass('btn-inverse').text("Toggle Dark");
+			$(this).addClass('btn-default').text("Toggle Dark");
 		} else {
 			dark = true;
 			$("body").css({"background-image": "url(../img/tweed.png)"});
-			$(this).removeClass('btn-inverse').text("Toggle Light");
+			$(this).removeClass('btn-default').text("Toggle Light");
 		}
 
 		if (Modernizr.localstorage){
