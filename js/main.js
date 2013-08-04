@@ -14,29 +14,47 @@ $(function(){
 
 	parallax.index.show();
 
+	function setActiveClass(jThis){
+		$(".nav .active").removeClass('.active');
+		jThis.parent().addClass('active');
+	}
+
+	var page = 'index';
+
 	$("a[href=#index]").on('click', function(){
-		$(this).parent().addClass('active');
-		parallax.index.top();
-		return false;
+		if (page !== 'index'){
+			setActiveClass($(this));
+			parallax.index.top();
+			page = 'index';
+			return false;
+		}
 	});
 
 	$("a[href=#resume]").on('click', function(){
-		$(this).parent().addClass('active');
-		parallax.resume.right();
-		return false;
-
+		if (page !== 'resume'){
+			setActiveClass($(this));
+			parallax.resume.right();
+			page = 'resume';
+			return false;
+		}
 	});
 
 	$("a[href=#projects]").on('click', function(){
-		$(this).parent().addClass('active');
-		parallax.projects.bottom();
-		return false;
+		if (page !== 'projects'){
+			setActiveClass($(this));
+			parallax.projects.bottom();
+			page = 'projects';
+			return false;
+		}
 	});
 
 	$("a[href=#contact]").on('click', function(){
-		$(this).parent().addClass('active');
-		parallax.contact.left();
-		return false;
+		if (page !== 'contact'){
+			setActiveClass($(this));
+			parallax.contact.left();
+			page = 'contact';
+			return false;
+		}
 	});
 
 
