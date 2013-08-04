@@ -15,7 +15,7 @@ $(function(){
 	parallax.index.show();
 
 	function setActiveClass(jThis){
-		$(".nav .active").removeClass('.active');
+		$(".nav .active").removeClass('active');
 		jThis.parent().addClass('active');
 	}
 
@@ -26,7 +26,6 @@ $(function(){
 			setActiveClass($(this));
 			parallax.index.top();
 			page = 'index';
-			return false;
 		}
 	});
 
@@ -35,7 +34,6 @@ $(function(){
 			setActiveClass($(this));
 			parallax.resume.right();
 			page = 'resume';
-			return false;
 		}
 	});
 
@@ -44,7 +42,6 @@ $(function(){
 			setActiveClass($(this));
 			parallax.projects.bottom();
 			page = 'projects';
-			return false;
 		}
 	});
 
@@ -53,7 +50,6 @@ $(function(){
 			setActiveClass($(this));
 			parallax.contact.left();
 			page = 'contact';
-			return false;
 		}
 	});
 
