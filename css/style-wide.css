@@ -22,11 +22,11 @@ body, input, select, textarea {
 
   /* line 40, ../sass/_mixins.scss */
   100% {
-    -moz-transform: translate3d(-1300px,0,0);
-    -webkit-transform: translate3d(-1300px,0,0);
-    -o-transform: translate3d(-1300px,0,0);
-    -ms-transform: translate3d(-1300px,0,0);
-    transform: translate3d(-1300px,0,0);
+    -moz-transform: translate3d(-1785px,0,0);
+    -webkit-transform: translate3d(-1785px,0,0);
+    -o-transform: translate3d(-1785px,0,0);
+    -ms-transform: translate3d(-1785px,0,0);
+    transform: translate3d(-1785px,0,0);
   }
 }
 
@@ -42,11 +42,11 @@ body, input, select, textarea {
 
   /* line 40, ../sass/_mixins.scss */
   100% {
-    -moz-transform: translate3d(-1300px,0,0);
-    -webkit-transform: translate3d(-1300px,0,0);
-    -o-transform: translate3d(-1300px,0,0);
-    -ms-transform: translate3d(-1300px,0,0);
-    transform: translate3d(-1300px,0,0);
+    -moz-transform: translate3d(-1785px,0,0);
+    -webkit-transform: translate3d(-1785px,0,0);
+    -o-transform: translate3d(-1785px,0,0);
+    -ms-transform: translate3d(-1785px,0,0);
+    transform: translate3d(-1785px,0,0);
   }
 }
 
@@ -62,11 +62,11 @@ body, input, select, textarea {
 
   /* line 40, ../sass/_mixins.scss */
   100% {
-    -moz-transform: translate3d(-1300px,0,0);
-    -webkit-transform: translate3d(-1300px,0,0);
-    -o-transform: translate3d(-1300px,0,0);
-    -ms-transform: translate3d(-1300px,0,0);
-    transform: translate3d(-1300px,0,0);
+    -moz-transform: translate3d(-1785px,0,0);
+    -webkit-transform: translate3d(-1785px,0,0);
+    -o-transform: translate3d(-1785px,0,0);
+    -ms-transform: translate3d(-1785px,0,0);
+    transform: translate3d(-1785px,0,0);
   }
 }
 
@@ -82,11 +82,11 @@ body, input, select, textarea {
 
   /* line 40, ../sass/_mixins.scss */
   100% {
-    -moz-transform: translate3d(-1300px,0,0);
-    -webkit-transform: translate3d(-1300px,0,0);
-    -o-transform: translate3d(-1300px,0,0);
-    -ms-transform: translate3d(-1300px,0,0);
-    transform: translate3d(-1300px,0,0);
+    -moz-transform: translate3d(-1785px,0,0);
+    -webkit-transform: translate3d(-1785px,0,0);
+    -o-transform: translate3d(-1785px,0,0);
+    -ms-transform: translate3d(-1785px,0,0);
+    transform: translate3d(-1785px,0,0);
   }
 }
 
@@ -102,16 +102,16 @@ body, input, select, textarea {
 
   /* line 40, ../sass/_mixins.scss */
   100% {
-    -moz-transform: translate3d(-1300px,0,0);
-    -webkit-transform: translate3d(-1300px,0,0);
-    -o-transform: translate3d(-1300px,0,0);
-    -ms-transform: translate3d(-1300px,0,0);
-    transform: translate3d(-1300px,0,0);
+    -moz-transform: translate3d(-1785px,0,0);
+    -webkit-transform: translate3d(-1785px,0,0);
+    -o-transform: translate3d(-1785px,0,0);
+    -ms-transform: translate3d(-1785px,0,0);
+    transform: translate3d(-1785px,0,0);
   }
 }
 
 /* line 43, ../sass/_mixins.scss */
 #bg {
-  background-size: 1300px auto;
-  width: 3900px;
+  background-size: 1785px auto;
+  width: 5355px;
 }
