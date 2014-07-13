@@ -1,11 +1,13 @@
 # Site settings
 title: Mark Meyer 
 email: mark.meyer37@gmail.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+tagline: "Engineer &nbsp;&bull;&nbsp; Adventurer &nbsp;&bull;&nbsp; Stay Hungry, Stay Foolish"
 baseurl: ""
 url: "http://nuclearghost.github.io"
 twitter_username: nuclearghost
 github_username:  nuclearghost
+linkedin_url: "https://www.linkedin.com/pub/mark-meyer/38/a51/110"
+headshot: "https://s.gravatar.com/avatar/6c2f0695e0ca4445a223ce325c7fb970?s=268"
 
 # Build settings
 markdown: kramdown

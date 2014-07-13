@@ -794,3 +794,9 @@ a:hover {
   text-align: center;
   width: 100%;
 }
+
+/* line 246, ../sass/style.scss */
+.headshot img {
+  border: thick solid white;
+  border-radius: 300px;
+}
