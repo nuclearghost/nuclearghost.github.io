@@ -1,0 +1,144 @@
+/*
+	Aerial 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/* Basic */
+/* line 12, ../sass/style-mobile.scss */
+body {
+  min-width: 320px;
+}
+
+/* line 16, ../sass/style-mobile.scss */
+body, input, select, textarea {
+  font-size: 11pt;
+}
+
+/* BG */
+@-moz-keyframes bg {
+  /* line 39, ../sass/_mixins.scss */
+  0% {
+    -moz-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+  /* line 40, ../sass/_mixins.scss */
+  100% {
+    -moz-transform: translate3d(-500px,0,0);
+    -webkit-transform: translate3d(-500px,0,0);
+    -o-transform: translate3d(-500px,0,0);
+    -ms-transform: translate3d(-500px,0,0);
+    transform: translate3d(-500px,0,0);
+  }
+}
+
+@-webkit-keyframes bg {
+  /* line 39, ../sass/_mixins.scss */
+  0% {
+    -moz-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+  /* line 40, ../sass/_mixins.scss */
+  100% {
+    -moz-transform: translate3d(-500px,0,0);
+    -webkit-transform: translate3d(-500px,0,0);
+    -o-transform: translate3d(-500px,0,0);
+    -ms-transform: translate3d(-500px,0,0);
+    transform: translate3d(-500px,0,0);
+  }
+}
+
+@-o-keyframes bg {
+  /* line 39, ../sass/_mixins.scss */
+  0% {
+    -moz-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+  /* line 40, ../sass/_mixins.scss */
+  100% {
+    -moz-transform: translate3d(-500px,0,0);
+    -webkit-transform: translate3d(-500px,0,0);
+    -o-transform: translate3d(-500px,0,0);
+    -ms-transform: translate3d(-500px,0,0);
+    transform: translate3d(-500px,0,0);
+  }
+}
+
+@-ms-keyframes bg {
+  /* line 39, ../sass/_mixins.scss */
+  0% {
+    -moz-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+  /* line 40, ../sass/_mixins.scss */
+  100% {
+    -moz-transform: translate3d(-500px,0,0);
+    -webkit-transform: translate3d(-500px,0,0);
+    -o-transform: translate3d(-500px,0,0);
+    -ms-transform: translate3d(-500px,0,0);
+    transform: translate3d(-500px,0,0);
+  }
+}
+
+@keyframes bg {
+  /* line 39, ../sass/_mixins.scss */
+  0% {
+    -moz-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+  /* line 40, ../sass/_mixins.scss */
+  100% {
+    -moz-transform: translate3d(-500px,0,0);
+    -webkit-transform: translate3d(-500px,0,0);
+    -o-transform: translate3d(-500px,0,0);
+    -ms-transform: translate3d(-500px,0,0);
+    transform: translate3d(-500px,0,0);
+  }
+}
+
+/* line 43, ../sass/_mixins.scss */
+#bg {
+  background-size: 500px auto;
+  width: 1500px;
+}
+
+/* Header */
+/* line 27, ../sass/style-mobile.scss */
+#header h1 {
+  font-size: 2.5em;
+}
+/* line 31, ../sass/style-mobile.scss */
+#header p {
+  font-size: 1em;
+}
+/* line 35, ../sass/style-mobile.scss */
+#header nav {
+  font-size: 1em;
+}
+/* line 39, ../sass/style-mobile.scss */
+#header nav a:hover {
+  font-size: 1em;
+}
+/* line 43, ../sass/style-mobile.scss */
+#header nav a:active {
+  font-size: 1em;
+}

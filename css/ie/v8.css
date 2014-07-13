@@ -1,0 +1,25 @@
+/*
+	Aerial 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/* Header */
+/* line 14, ../../sass/ie/v8.scss */
+#header nav a {
+  position: relative;
+  border: solid 1px white;
+  border-radius: 100%;
+  -ms-behavior: url("css/ie/PIE.htc");
+}
+/* line 19, ../../sass/ie/v8.scss */
+#header nav a:before {
+  border: 0;
+}
+
+/* Footer */
+/* line 28, ../../sass/ie/v8.scss */
+#footer {
+  background-image: url("images/footer.png");
+  background-position: bottom left;
+  background-repeat: repeat-x;
+}
